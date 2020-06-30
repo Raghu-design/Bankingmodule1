@@ -14,6 +14,13 @@
           <include name="loginTest"/>
         </methods>
       </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
+      <class name="com.inetbanking.testCases.TC_LoginTest_002">
+        <methods>
+          <include name="loginDDT"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.inetbanking.testCases.TC_LoginTest_002 -->
     </classes>
   </test> <!-- FirefoxBrowser(failed) -->
 </suite> <!-- Failed suite [ChromeBrowser] -->

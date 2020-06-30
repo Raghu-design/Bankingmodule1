@@ -4,21 +4,21 @@
 <listeners>
 <listener class-name="com.inetbanking.utilities.Reporting"/>
 </listeners>
-<test name="FirefoxBrowser">
+<test name="ChromeBrowser">
 <parameter name="browser" value="chrome"/>
 <classes>
 <class name="com.inetbanking.testCases.TC_LoginTest_001"/>
-<class name="com.inetbanking.testCases.TC_LoginTest_002"/>
+<!--<class name="com.inetbanking.testCases.TC_LoginTest_002"/>-->
 </classes>
 </test>
 <listeners>
 <listener class-name="com.inetbanking.utilities.Reporting"/>
 </listeners>
 <test name="InternetExplorerBrowser">
-<parameter name="browser" value="chrome"/>
+<parameter name="browser" value="IE"/>
 <classes>
 <class name="com.inetbanking.testCases.TC_LoginTest_001"/>
-<class name="com.inetbanking.testCases.TC_LoginTest_002"/>
+<!--<class name="com.inetbanking.testCases.TC_LoginTest_002"/>-->
 </classes>
 </test>
 </suite>
