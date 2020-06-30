@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ChromeBrowser">
+<listeners>
+<listener class-name="com.inetbanking.utilities.Reporting"/>
+</listeners>
+<test name="FirefoxBrowser">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.inetbanking.testCases.TC_LoginTest_001"/>
+<class name="com.inetbanking.testCases.TC_LoginTest_002"/>
+</classes>
+</test>
+<listeners>
+<listener class-name="com.inetbanking.utilities.Reporting"/>
+</listeners>
+<test name="InternetExplorerBrowser">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.inetbanking.testCases.TC_LoginTest_001"/>
+<class name="com.inetbanking.testCases.TC_LoginTest_002"/>
+</classes>
+</test>
+</suite>
+

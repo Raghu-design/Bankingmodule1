@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [MultiBrowserSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.inetbanking.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="2" name="Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.inetbanking.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="2" name="Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.inetbanking.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [MultiBrowserSuite] -->
