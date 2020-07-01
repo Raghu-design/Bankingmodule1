@@ -11,25 +11,5 @@
 <!--<class name="com.inetbanking.testCases.TC_LoginTest_002"/>-->
 </classes>
 </test>
-<listeners>
-<listener class-name="com.inetbanking.utilities.Reporting"/>
-</listeners>
-<test name="inetBankingV1new">
-<parameter name="browser" value="firefox"/>
-<classes>
-<class name="com.inetbanking.testCases.TC_LoginTest_001"/>
-<!--<class name="com.inetbanking.testCases.TC_LoginTest_002"/>-->
-</classes>
-</test>
-<listeners>
-<listener class-name="com.inetbanking.utilities.Reporting"/>
-</listeners>
-<test name="inetBankingV1new1">
-<parameter name="browser" value="ie"/>
-<classes>
-<class name="com.inetbanking.testCases.TC_LoginTest_001"/>
-<!--<class name="com.inetbanking.testCases.TC_LoginTest_002"/>-->
-</classes>
-</test>
 </suite>
 

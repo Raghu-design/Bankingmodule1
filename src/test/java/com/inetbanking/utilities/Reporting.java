@@ -15,7 +15,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class Reporting extends TestListenerAdapter
@@ -44,7 +43,6 @@ public void onStart(ITestContext testContext)
 	
 	htmlReporter.config().setDocumentTitle("Facebook Test Project");
 	htmlReporter.config().setReportName("Functional Test Report");
-	htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 	htmlReporter.config().setTheme(Theme.DARK);
 	
 }

@@ -1,5 +1,5 @@
-19:04:35,380  INFO ebanking<strong>{1}</strong>:23 - URL is Opened
-19:04:43,267  INFO ebanking<strong>{1}</strong>:31 - Entered username
-19:04:43,654  INFO ebanking<strong>{1}</strong>:33 - Entered password
-19:04:46,480  INFO ebanking<strong>{1}</strong>:35 - clicked Submit
-19:04:51,515  INFO ebanking<strong>{1}</strong>:41 - Login test passed
+22:54:20,230  INFO ebanking<strong>{1}</strong>:23 - URL is Opened
+22:54:27,547  INFO ebanking<strong>{1}</strong>:31 - Entered username
+22:54:27,660  INFO ebanking<strong>{1}</strong>:33 - Entered password
+22:54:28,450  INFO ebanking<strong>{1}</strong>:35 - clicked Submit
+22:54:33,483  INFO ebanking<strong>{1}</strong>:41 - Login test passed
