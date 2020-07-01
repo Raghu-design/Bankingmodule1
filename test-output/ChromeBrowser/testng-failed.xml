@@ -4,8 +4,8 @@
   <listeners>
     <listener class-name="com.inetbanking.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="FirefoxBrowser(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="InternetExplorerBrowser(failed)">
+    <parameter name="browser" value="IE"/>
     <classes>
       <class name="com.inetbanking.testCases.TC_LoginTest_001">
         <methods>
@@ -14,13 +14,6 @@
           <include name="loginTest"/>
         </methods>
       </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
-      <class name="com.inetbanking.testCases.TC_LoginTest_002">
-        <methods>
-          <include name="loginDDT"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.inetbanking.testCases.TC_LoginTest_002 -->
     </classes>
-  </test> <!-- FirefoxBrowser(failed) -->
+  </test> <!-- InternetExplorerBrowser(failed) -->
 </suite> <!-- Failed suite [ChromeBrowser] -->

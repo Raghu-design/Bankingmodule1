@@ -3,4 +3,4 @@ username=mngr269812
 password=radYmEs
 chromepath=C:\\selenium\\inetBankingV1\\Drivers\\chromedriver3.exe
 iepath=C:\\selenium\\inetBankingV1\\Drivers\\IEDriverServer.exe
-firefoxpath=C:\\selenium\\inetBankingV1\\Drivers\\geckodriver1.exe
+firefoxpath=C:\\selenium\\inetBankingV1\\Drivers\\geckodriver32.exe
