@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ChromeBrowser">
+<suite name="inetBankingV1">
 <listeners>
 <listener class-name="com.inetbanking.utilities.Reporting"/>
 </listeners>
-<test name="ChromeBrowser">
+<test name="inetBankingV1">
 <parameter name="browser" value="chrome"/>
 <classes>
 <class name="com.inetbanking.testCases.TC_LoginTest_001"/>
@@ -14,8 +14,18 @@
 <listeners>
 <listener class-name="com.inetbanking.utilities.Reporting"/>
 </listeners>
-<test name="InternetExplorerBrowser">
-<parameter name="browser" value="IE"/>
+<test name="inetBankingV1new">
+<parameter name="browser" value="firefox"/>
+<classes>
+<class name="com.inetbanking.testCases.TC_LoginTest_001"/>
+<!--<class name="com.inetbanking.testCases.TC_LoginTest_002"/>-->
+</classes>
+</test>
+<listeners>
+<listener class-name="com.inetbanking.utilities.Reporting"/>
+</listeners>
+<test name="inetBankingV1new1">
+<parameter name="browser" value="ie"/>
 <classes>
 <class name="com.inetbanking.testCases.TC_LoginTest_001"/>
 <!--<class name="com.inetbanking.testCases.TC_LoginTest_002"/>-->
